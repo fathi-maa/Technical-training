@@ -7,7 +7,7 @@ def compressed(s):
         else:
             compress += s[i - 1] + (str(count) if count > 1 else '')
             count = 1
-   
+    compress += s[-1] + (str(count) if count > 1 else '')
     return compress
 
 n = "aaaabbbccc"

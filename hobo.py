@@ -13,7 +13,7 @@ if num <=p:
     ans=n-p
 else:
     ans=p
-print(ans)'''
+print(ans//2)'''
 
 n=50
 p=48
