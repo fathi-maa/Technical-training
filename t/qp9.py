@@ -1,6 +1,6 @@
 #reverse of a number
 
-n=int(input ("enter the didgit : "))
+n=int(input ("enter the number : "))
 num=n
 rev=0
 while num > 0:
