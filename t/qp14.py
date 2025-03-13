@@ -1,5 +1,5 @@
 N=int(input("enter the number of vehicles :"))
-a=[int(input("enter the reg number : ").strip()) for i in range(N)]
+a=list(map(int,input("enter the prices : ").split()))
 date=int(input("enter the date : "))
 X=int(input("enter the fine : "))
 count=0
