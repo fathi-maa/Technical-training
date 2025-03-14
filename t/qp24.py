@@ -1,3 +1,4 @@
+#prime factors
 n=int(input())
 factors=[]
 while n % 2 == 0:

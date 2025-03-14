@@ -28,4 +28,4 @@ for i in arr:
     if i==0:
         arr.remove(i)
         non_zero.append(i)
-print(arr+non_zero)
+print(*(arr+non_zero))
